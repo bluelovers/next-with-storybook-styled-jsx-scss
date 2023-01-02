@@ -1,0 +1,43 @@
+@import './vars.scss';
+//@import 'antd/dist/reset.css';
+@import './scrollbar.scss';
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+@font-face
+{
+	font-family: 'JetBrains Mono';
+	src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+	url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+	url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+	url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root, body, html
+{
+	-webkit-font-feature-settings: "liga" on, "calt" on;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	/*font-family: $font_jetbrains, $font_nextjs;*/
+}
+
+pre, code, kbd, samp
+{
+	.ant-typography &, &
+	{
+		font-size: inherit !important;
+		font-family: $font_jetbrains, $font_nextjs_code !important;
+	}
+}
+
+:root, body, html
+{
+	height: 100%;
+}
+
+.font-chinese-sans-bold
+{
+	font-family: $font_noto_sans_tc, $font_jetbrains, $font_nextjs;
+	font-weight: 600;
+}

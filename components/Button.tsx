@@ -1,5 +1,12 @@
 import React from 'react'
 
+export enum EnumSize
+{
+  'small' = 'small',
+  'medium' = 'medium',
+  'large' = 'large',
+}
+
 export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
@@ -12,7 +19,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large'
+  size?: EnumSize | `${EnumSize}`
   /**
    * Button contents
    */

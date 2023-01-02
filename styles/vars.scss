@@ -1,0 +1,15 @@
+$font_nextjs: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, PMingLiU;
+
+$font_nextjs_code: Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
+'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, PMingLiU;
+
+$font_jetbrains: 'JetBrains Mono';
+
+$font_noto_sans_tc: 'Noto Sans TC';
+
+$navigation-size: 260px;
+
+:export
+{
+	navigationSize: $navigation-size;
+}
