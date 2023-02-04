@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
+    "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "type-check": "tsc",
-    "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "analyze": "cross-env ANALYZE=true yarn build"
+    "storybook": "storybook dev -p 6006",
+    "analyze": "cross-env ANALYZE=true yarn build",
+    "type-check": "tsc"
   },
   "dependencies": {
     "next": "latest",
@@ -15,20 +15,31 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@bbbtech/storybook-formik": "^2.5.0",
     "@bluelovers/tsconfig": "^1.0.33",
-    "@next/bundle-analyzer": "^13.1.1",
-    "@storybook/addon-actions": "^7.0.0-beta.19",
-    "@storybook/addon-essentials": "^7.0.0-beta.19",
-    "@storybook/addon-links": "^7.0.0-beta.19",
-    "@storybook/nextjs": "7.0.0-beta.19",
-    "@storybook/react": "^7.0.0-beta.19",
+    "@geometricpanda/storybook-addon-badges": "^0.2.2",
+    "@next/bundle-analyzer": "^13.1.6",
+    "@storybook/addon-essentials": "next",
+    "@storybook/addon-links": "next",
+    "@storybook/addon-storysource": "next",
+    "@storybook/nextjs": "next",
+    "@storybook/react": "next",
+    "@storybook/testing-react": "next",
     "@styled-jsx/plugin-sass": "^4.0.2",
     "@types/node": "^18.11.18",
-    "@types/react": "^18.0.26",
+    "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@whitespace/storybook-addon-html": "^5.1.1",
     "cross-env": "^7.0.3",
-    "sass": "^1.57.1",
-    "storybook": "7.0.0-beta.19",
-    "typescript": "^4.9.4"
+    "sass": "^1.58.0",
+    "storybook": "next",
+    "storybook-addon-cookie": "^1.0.6",
+    "storybook-addon-designs": "beta",
+    "storybook-addon-next-router": "^4.0.2",
+    "storybook-addon-pseudo-states": "next",
+    "storybook-color-picker": "^3.1.0",
+    "storybook-react-context": "^0.6.0",
+    "@storybook/addon-interactions": "next",
+    "typescript": "^4.9.5"
   }
 }
