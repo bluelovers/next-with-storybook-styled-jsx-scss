@@ -20,6 +20,7 @@ const storybookConfig = {
     'storybook-addon-next-router',
     'storybook-color-picker',
     '@geometricpanda/storybook-addon-badges',
+    'storybook-fixtures',
   ],
   framework: {
     name: '@storybook/nextjs',
