@@ -12,7 +12,6 @@ const storybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-storysource',
-    'storybook-addon-designs',
     '@storybook/addon-interactions',
     'storybook-addon-pseudo-states',
     '@whitespace/storybook-addon-html',
@@ -40,4 +39,4 @@ const storybookConfig = {
   },
 };
 
-module.exports = storybookConfig;
+export default storybookConfig;
